@@ -63,10 +63,10 @@ python baysian_model.py
 このプロジェクトで使用しているベイズモデルの構造は、以下の図の通りです。
 
 ```math
-X_{i} \sim Binormal(N_{i}, p_{i}) \
-p_{i} = logit^{-1}(\eta_{i}) \
-\eta_{i} = \beta_{0} + \beta_{1} * Y_{i} \
+X_{i} \sim Binormal(N_{i}, p_{i}) \\
+p_{i} = logit^{-1}(\eta_{i}) \\
+\eta_{i} = \beta_{0} + \beta_{1} * Y_{i} \\
 \beta_{0}, \beta_{1} \sim iid. Normal(\mu, \sigma) 
 ```
 
-ただし $N_{i}$ は公演ごとの合計キャパ数、$X_{i}$は公演ごとの合計予約数、$Y_{i}$は公演数を表します。
+ただし $N_{i}$ は公演ごとの合計キャパ数、$X_{i}$ は公演ごとの合計予約数、$Y_{i}$ は公演数を表します。
