@@ -20,6 +20,7 @@ multipledispatch==1.0.0
 numpy==2.3.3
 packaging==25.0
 pandas==2.3.3
+patsy==1.0.2
 pillow==11.3.0
 Pygments==2.19.2
 pymc==5.25.1
@@ -31,6 +32,7 @@ rich==14.2.0
 scipy==1.16.2
 seaborn==0.13.2
 six==1.17.0
+statsmodels==0.14.6
 threadpoolctl==3.6.0
 toolz==1.0.0
 typing_extensions==4.15.0
